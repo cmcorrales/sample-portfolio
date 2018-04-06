@@ -10,7 +10,6 @@ body {
   background-image: url('images/stars.jpeg');
   background-size: cover;
   overflow: scroll;
-  background-color: #DEEFF5;
 }
 
 nav {
@@ -182,6 +181,7 @@ a{
   width: 100%;
   display: flex;
 }
+
 .icon {
   float: left;
   display: block;
@@ -190,11 +190,13 @@ a{
   border-radius: 50%;
   margin: 2% 0 0% 3%;
 }
+
 .icon:hover {
   border-color: #FFC933;
   transition: border-color 0.5s ease;
   position: absolute;
 }
+
 .information {
   display: flex;
   margin: 3%;
@@ -202,9 +204,11 @@ a{
   align-items: center;
   width: 100%;
 }
+
 .image-container {
   background-color: black;
 }
+
 .description-container {
   width: 42%;
   background-color: white;
